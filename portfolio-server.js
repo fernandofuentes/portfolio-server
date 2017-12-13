@@ -16,7 +16,7 @@ function responseHandler(request, response) {
     case "/portfolio":
       response.end("Mah portfolio");
     default:
-      response.endZ("404");
+      response.end("404");
   }
 }
 
